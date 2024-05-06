@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        coveredByYourGrace: ['"Covered By Your Grace"', 'cursive'],
+        manrope: ['Manrope', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

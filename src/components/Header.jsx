@@ -1,17 +1,19 @@
 import React from 'react'
+import Logo from  '../assets/logo.png'
 
 const Header = () => {
   return (
-    <>
-      <div>
+    <div className='p-5'>
+      <div className='px-10 flex items-center justify-between border border-[#EAEAEA] rounded-full'>
         <div>
-            <img src={} alt="" />
+            <img src={Logo} alt="Logo" />
         </div>
         <div>
-
+            <button className='p-5 px-8 m-4 text-black bg-white rounded-full hover:bg-gray-200 border border-[#EAEAEA] hover:border-transparent'>Get Projects</button>
+            <button className='p-5 px-7 m-4 text-white bg-black rounded-full hover:bg-[#4E4E4E] '>Onboard Talent</button>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
