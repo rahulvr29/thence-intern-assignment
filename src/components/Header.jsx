@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from  '../assets/logo.png'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -9,7 +10,11 @@ const Header = () => {
             <img src={Logo} alt="Logo" />
         </div>
         <div>
-            <button className='p-5 px-8 m-4 text-black bg-white rounded-full hover:bg-gray-200 border border-[#EAEAEA] hover:border-transparent'>Get Projects</button>
+        <Link to="/entry-form">
+  <button className='p-5 px-8 m-4 text-black bg-white rounded-full hover:bg-gray-200 border border-[#EAEAEA] hover:border-transparent'>
+    Get Projects
+  </button>
+</Link>
             <button className='p-5 px-7 m-4 text-white bg-black rounded-full hover:bg-[#4E4E4E] '>Onboard Talent</button>
         </div>
       </div>
