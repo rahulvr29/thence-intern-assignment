@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, MainSection } from './components'
+import { Footer, Header, MainSection, QuestionSection } from './components'
 
 
 
@@ -9,6 +9,8 @@ function App() {
     <>
       <Header/>
       <MainSection/>
+      <QuestionSection/>
+      <Footer/>
     </>
   )
 }
