@@ -35,7 +35,7 @@ const SucessPage = () => {
           <h2 className='font-manrope text-center font-semibold text-4xl'>Congratulations</h2>
           <p className='font-manrope text-center font-semibold text-2xl text-[#727272]'>Your request has been successfully submitted to us. We <br /> will validate your information and reach out to your <br /> shortly with updates</p>
         </div>
-        <div className='mt-28'>
+        <div className='mt-10'>
           <p className='text-[] font-manrope text-center'>Redirecting you to Homepage in <span className='font-semibold'>{countdown} Seconds</span></p>
         </div>
       </div>
